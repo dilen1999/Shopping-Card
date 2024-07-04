@@ -1,0 +1,80 @@
+/* src/css/Shopping_cart.css */
+
+.shopping-cart-main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .shopping-cart-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shopping-cart-heading h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .shopping-cart-heading span {
+    margin-left: auto;
+    font-size: 0.9em;
+  }
+  
+  .shopping-cart-items {
+    margin-top: 20px;
+  }
+  
+  .shopping-cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  
+  .course-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .course-details {
+    flex: 1;
+  }
+  
+  .course-details h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .course-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .course-details .stars {
+    color: #f39c12;
+  }
+  
+  .course-details a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .course-details .remove-link {
+    color: #ff4d4f;
+  }
+  
+  .course-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
