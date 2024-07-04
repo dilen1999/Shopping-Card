@@ -1,14 +1,20 @@
-/* src/css/Shopping_cart.css */
-
 .shopping-cart-main {
     padding: 20px;
     font-family: Arial, sans-serif;
   }
   
+  .shopping-cart-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    width: 64vw;
+  }
+
   .shopping-cart-heading {
     display: flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 0px;
     padding: 10px 0;
     
   }
@@ -16,10 +22,6 @@
   .shopping-cart-bottomline{
     border-bottom: 1px solid #ddd;
     width: 65vw;
-  }
-
-  .shopping-cart-coursecart{
-    margin-top: 20px;
   }
   
   .shopping-cart-heading h1 {
@@ -32,13 +34,30 @@
     font-size: 0.9em;
   }
   
-  .shopping-cart-items {
+  .shopping-cart-coursecart{
     margin-top: 20px;
+  }
+  
+  .shopping-cart-coursecart span {
+    margin: 0; 
+  }
+  
+  .shopping-cart-color{
+    color: #007bff;
+  }
+  
+  .shopping-cart-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .shopping-cart-items {
+    width: 65%;
   }
   
   .shopping-cart-item {
     display: flex;
-    width: 65vw;
     align-items: center;
     padding: 15px;
     border: 1px solid #ddd;
@@ -57,6 +76,7 @@
   .course-details {
     flex: 1;
   }
+  
   
   .course-details h2 {
     margin: 0 0 10px;
@@ -87,7 +107,66 @@
     font-weight: bold;
     margin-left: 20px;
   }
-
   
+  .shopping-cart-form {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 300hv;
+  }
+  
+  .shopping-cart-form h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }
+
+  .form-row {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
   
   
