@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Shopping_card.css"; 
+import "../css/Shopping_card.css";
 
 const ShoppingCart = () => {
   return (
@@ -20,7 +20,7 @@ const ShoppingCart = () => {
           {[1, 2, 3].map((_, index) => (
             <div key={index} className="shopping-cart-item">
               <img
-                src={`${process.env.PUBLIC_URL}/images/image.jpg`} 
+                src={`${process.env.PUBLIC_URL}/images/image.jpg`}
                 alt="Course"
                 className="course-image"
               />
@@ -59,11 +59,11 @@ const ShoppingCart = () => {
             </div>
             <div className="form-group form-row">
               <span>Tax</span>
-              <h3>$300</h3>
+              <h3>$20</h3>
             </div>
             <div className="form-group form-row">
               <span>Total</span>
-              <h3>$300</h3>
+              <h3>$290</h3>
             </div>
 
             <button className="" type="submit">
